@@ -1,0 +1,39 @@
+.clipboard {
+    width: 100vh;
+    height: 90vh;
+    border: 2px solid #bbb;
+    border-radius: 9px;
+    box-shadow: 0 0 10px 10px #999999;	
+    background-image: url('../public/cork.jpg'); 
+    background-size: cover;
+    position: relative; /* Añadido: para posicionamiento relativo */
+}
+
+.clipboard-header {
+    height: 40px;
+    background-image: url('../public/metal.png'); 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.clip {
+    width: 270px;
+    height: 60px;
+    background-image: url('../public/aluminum.jpg'); 
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: -20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.clipboard-content {
+    padding: 16px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}

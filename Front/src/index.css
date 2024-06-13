@@ -1,0 +1,18 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100vh;
+  width: 100vh;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(241, 238, 234)!important;
+  background-image: url('../public/logo-utn.png');
+  background-position: 25px 50px;
+  background-repeat: no-repeat;
+  background-size: 300px 300px; 
+}
